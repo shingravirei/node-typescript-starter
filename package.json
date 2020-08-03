@@ -6,7 +6,9 @@
     "scripts": {
         "dev": "tsnd --respawn --clear  ./src/index.ts",
         "build": "tsc -p .",
-        "test": "jest --watch"
+        "start": "node ./dist/src/index.js",
+        "test": "jest --watch",
+        "clean": "rm -rf ./dist/*"
     },
     "keywords": [
         "typescript",

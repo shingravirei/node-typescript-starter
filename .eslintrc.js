@@ -19,10 +19,11 @@ module.exports = {
         'no-console': 0,
         semi: 'off',
         'no-unused-vars': 'warn',
-        '@typescript-eslint/no-unused-vars': 'warn',
         'arrow-body-style': 'warn',
         'linebreak-style': ['off', 'windows'],
         indent: ['error', 4],
-        'comma-dangle': 'off'
+        'comma-dangle': 'off',
+        '@typescript-eslint/indent': 'off',
+        '@typescript-eslint/no-unused-vars': 'warn'
     }
 };

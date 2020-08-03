@@ -1,1 +1,1 @@
-console.log('Hello, Typescript!');
+export default (name: string): string => `Hello, ${name}`;

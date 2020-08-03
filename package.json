@@ -1,0 +1,24 @@
+{
+    "name": "ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "tsnd --respawn --clear  ./src/index.ts",
+        "build": "tsc -p .",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^3.8.0",
+        "@typescript-eslint/parser": "^3.8.0",
+        "eslint": "^7.6.0",
+        "eslint-config-airbnb-typescript": "^9.0.0",
+        "eslint-plugin-import": "^2.22.0",
+        "ts-node": "^8.10.2",
+        "ts-node-dev": "^1.0.0-pre.56",
+        "typescript": "^3.9.7"
+    }
+}

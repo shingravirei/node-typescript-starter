@@ -1,6 +1,6 @@
 {
     "name": "ts",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A node/typescript project template",
     "main": "index.ts",
     "scripts": {
@@ -19,17 +19,17 @@
     "author": "shingravirei",
     "license": "MIT",
     "devDependencies": {
-        "@types/jest": "^26.0.9",
-        "@types/node": "^14.0.27",
-        "@typescript-eslint/eslint-plugin": "^3.8.0",
-        "@typescript-eslint/parser": "^3.8.0",
-        "eslint": "^7.6.0",
-        "eslint-config-airbnb-typescript": "^9.0.0",
-        "eslint-plugin-import": "^2.22.0",
-        "jest": "^26.2.2",
-        "ts-jest": "^26.1.4",
-        "ts-node": "^8.10.2",
-        "ts-node-dev": "^1.0.0-pre.56",
-        "typescript": "^3.9.7"
+        "@types/jest": "^26.0.18",
+        "@types/node": "^14.14.11",
+        "@typescript-eslint/eslint-plugin": "^4.9.1",
+        "@typescript-eslint/parser": "^4.9.1",
+        "eslint": "^7.15.0",
+        "eslint-config-airbnb-typescript": "^12.0.0",
+        "eslint-plugin-import": "^2.22.1",
+        "jest": "^26.6.3",
+        "ts-jest": "^26.4.4",
+        "ts-node": "^9.1.1",
+        "ts-node-dev": "^1.0.0",
+        "typescript": "^4.1.2"
     }
 }

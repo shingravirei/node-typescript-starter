@@ -2,7 +2,7 @@
 
 A nodejs project template that includes typescript, eslint and testing configuration.
 
-## Made thanks to
+## Made using
 - typescript
 - ts-node-dev
 - jest

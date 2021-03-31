@@ -5,6 +5,7 @@ module.exports = {
         es2020: true,
         jest: true
     },
+    plugins: ['@typescript-eslint'],
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',

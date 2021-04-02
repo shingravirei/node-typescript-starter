@@ -1,6 +1,6 @@
 # node-typescript-starter
 
-A nodejs project template that includes typescript, eslint and testing configuration.
+A nodejs project template that includes typescript, eslint and testing already done.
 
 ## Made using
 - typescript

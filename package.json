@@ -4,7 +4,7 @@
     "description": "A node/typescript project template",
     "main": "index.ts",
     "scripts": {
-        "dev": "tsnd --respawn --clear  ./src/index.ts",
+        "dev": "tsnd --respawn --clear --transpile-only ./src/index.ts",
         "build": "tsc -p .",
         "start": "node ./dist/src/index.js",
         "test": "jest --watch",

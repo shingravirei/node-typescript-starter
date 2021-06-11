@@ -2,12 +2,6 @@
 
 A nodejs project template that includes typescript, eslint and testing already done.
 
-## Made using
-- typescript
-- ts-node-dev
-- jest
-- ts-jest
-
 Clone the repo
 ```bash
 git clone https://github.com/shingravirei/node-typescript-starter.git dir_name

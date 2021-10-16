@@ -4,3 +4,4 @@ dist
 jest.config.js
 .eslintrc.js
 prettier.config.js
+esbuild.config.js

@@ -1,8 +1,7 @@
 module.exports = {
     env: {
-        commonjs: true,
         node: true,
-        es2020: true,
+        es2021: true,
         jest: true
     },
     plugins: ['@typescript-eslint'],
@@ -15,8 +14,8 @@ module.exports = {
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
-        ecmaVersion: 2020,
-        project: ['./tsconfig.json', './prettier.config.js']
+        ecmaVersion: 'latest',
+        project: ['./tsconfig.json']
     },
     rules: {}
 };

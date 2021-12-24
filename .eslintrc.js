@@ -2,7 +2,7 @@ module.exports = {
     env: {
         node: true,
         es2021: true,
-        jest: true
+        jest: true,
     },
     plugins: ['@typescript-eslint'],
     extends: [
@@ -10,12 +10,12 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:import/errors',
         'plugin:import/warnings',
-        'plugin:import/typescript'
+        'plugin:import/typescript',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
         ecmaVersion: 'latest',
-        project: ['./tsconfig.json']
+        project: ['./tsconfig.json', 'testes/**/*'],
     },
-    rules: {}
+    rules: {},
 };

@@ -18,5 +18,9 @@
   "exclude": [
     "node_modules",
     "dist",
-  ]
+  ],
+  "ts-node": {
+    "transpileOnly": true,
+    "transpiler": "ts-node/transpilers/swc-experimental"
+  }
 }

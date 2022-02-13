@@ -5,17 +5,20 @@ module.exports = {
         jest: true,
     },
     plugins: ['@typescript-eslint'],
-    extends: [
-        'eslint:recommended',
-        'plugin:@typescript-eslint/recommended',
-        'plugin:import/errors',
-        'plugin:import/warnings',
-        'plugin:import/typescript',
-    ],
+    extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
     parser: '@typescript-eslint/parser',
     parserOptions: {
         ecmaVersion: 'latest',
         project: ['./tsconfig.json', 'testes/**/*'],
     },
     rules: {},
+    ignorePatterns: [
+        'node_modules',
+        'dist',
+        'migrations',
+        'jest.config.js',
+        '.eslintrc.js',
+        'prettier.config.js',
+        'tests',
+    ],
 };

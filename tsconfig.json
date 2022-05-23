@@ -20,7 +20,7 @@
     "dist",
   ],
   "files": [
-    "vit.config.ts"
+    "vitest.config.ts"
   ],
   "ts-node": {
     "swc": true

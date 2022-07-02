@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "NODE_ENV=development nodemon src/main.ts",
 		"check": "tsc",
-		"build": "tsc -b",
+		"build": "npm run clean && tsc -b",
 		"start": "node ./dist/index.js",
 		"test": "vitest -w",
 		"clean": "rm -rf ./dist/*",

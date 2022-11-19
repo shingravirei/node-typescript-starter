@@ -2,7 +2,7 @@
 	"name": "ts",
 	"version": "0.1.0",
 	"description": "A node/typescript project template",
-	"type": "commonjs",
+	"type": "module",
 	"scripts": {
 		"dev": "NODE_ENV=development nodemon src/main.ts",
 		"check": "tsc",

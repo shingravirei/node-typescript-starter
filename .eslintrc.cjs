@@ -14,16 +14,14 @@ module.exports = {
 	parserOptions: {
 		ecmaVersion: 'latest',
 		sourceType: 'module',
-		project: ['./tsconfig.json', 'testes/**/*'],
+		project: ['./tsconfig.json', 'tests/**/*'],
 	},
 	rules: {},
 	ignorePatterns: [
 		'node_modules',
 		'dist',
 		'migrations',
-		'jest.config.js',
-		'.eslintrc.js',
-		'prettier.config.js',
-		'tests',
+		'*.cjs',
+		'src/**/*.test.ts',
 	],
 };

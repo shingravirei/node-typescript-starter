@@ -1,8 +1,8 @@
-import { describe, expect, test } from 'vitest';
-import { Hello } from '../main';
+import { Hello } from '../main.js';
+import { describe, expect, it } from 'vitest';
 
 describe('Hello', () => {
-	test('it works', () => {
+	it('it works', () => {
 		expect(Hello('World!')).toBe('Hello, World!');
 	});
 });

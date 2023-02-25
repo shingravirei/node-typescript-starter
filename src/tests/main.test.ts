@@ -1,5 +1,5 @@
-import { Hello } from '../main.js';
 import { describe, expect, it } from 'vitest';
+import { Hello } from '../main.js';
 
 describe('Hello', () => {
 	it('it works', () => {

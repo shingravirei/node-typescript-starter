@@ -22,6 +22,6 @@ module.exports = {
 		'dist',
 		'migrations',
 		'*.cjs',
-		'src/**/*.test.ts',
+		'vitest.config.ts',
 	],
 };

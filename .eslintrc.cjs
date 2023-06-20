@@ -4,10 +4,12 @@ module.exports = {
 		es2022: true,
 	},
 	parser: '@typescript-eslint/parser',
-	plugins: ['@typescript-eslint', 'prettier'],
+	plugins: ['@typescript-eslint'],
 	extends: [
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
+		'plugin:@typescript-eslint/recommended-requiring-type-checking',
+		'plugin:@typescript-eslint/strict',
 		'plugin:unicorn/recommended',
 		'prettier',
 	],
@@ -19,6 +21,7 @@ module.exports = {
 	rules: {},
 	ignorePatterns: [
 		'node_modules',
+		'coverage',
 		'dist',
 		'migrations',
 		'*.cjs',

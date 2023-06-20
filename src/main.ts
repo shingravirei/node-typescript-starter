@@ -1,1 +1,3 @@
-export const Hello = (s: string) => `Hello, ${s}`;
+import { sum } from './math.js';
+
+console.log(sum(1, 2));

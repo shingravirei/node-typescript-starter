@@ -1,12 +1,14 @@
-/// <reference types="vitest" />
-
-// Configure Vitest (https://vitest.dev/config/)
-
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
 	test: {
-		/* for example, use global to avoid globals imports (describe, test, expect): */
+		coverage: {
+			reporter: ['html'],
+			provider: 'v8',
+			lines: 80,
+			branches: 80,
+			functions: 80,
+			statements: 80,
+		},
 	},
-	plugins: [],
 });

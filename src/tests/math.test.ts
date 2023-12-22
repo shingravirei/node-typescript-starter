@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-empty-interface */
 import { describe, expect, test } from 'vitest';
 import { divide, sum } from '../math.js';
 

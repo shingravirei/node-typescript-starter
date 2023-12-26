@@ -1,0 +1,16 @@
+{
+	"extends": "@tsconfig/node20/tsconfig.json",
+	"include": [
+		"src/**/*",
+	],
+	"exclude": [
+		"src/**/tests/*"
+	],
+	"compilerOptions": {
+		"composite": true,
+		"outDir": "./dist",
+		"types": [
+			"node"
+		]
+	},
+}
